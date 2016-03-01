@@ -1,0 +1,6 @@
+{
+  "name": "barbershop",
+  "dependencies": {
+    "jquery": "1.11"
+  }
+}

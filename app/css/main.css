@@ -1,0 +1,300 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'pt-sans-narrowbold';
+	font-size: 1em;
+	text-transform: uppercase;
+	background-color: #282828;
+}
+
+/* Очистка блоков с плавающими элементами - начало */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Очистка блоков с плавающими элементами - конец */
+/* обертка всей страницы */
+.layout-wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url(../img/bg-barb.jpg), url(../img/bg-TexasRichardson.jpg), url("../img/bg-footer.jpg");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position:  center -108px, center 680px, center bottom;
+	
+}
+/* блок хэдэра с меню и ссылкой для логина - начало */
+.header{
+	height: 47px;
+	background-color: black;
+	padding: 25px 128px 0;
+}
+.header-menu{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.header-menu-item-link{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 0 22px;
+	padding: 0 0 28px;
+}
+.header-menu-item-link:hover{
+	border-bottom: 3px solid white;
+}
+.header-menu-item{
+	display: inline-block;
+	color: white;
+}
+.account-menu-link{
+	display: block;
+	float: right;
+	color: white;
+	padding-left: 32px;
+	padding-right: 2px;
+	background: url("../img/login.png") no-repeat left;
+	text-decoration: none;
+}
+.account-menu-link:hover{
+	text-decoration: none;
+}
+/* блок хэдэра с меню и ссылкой для логина - конец */
+/* основной логотип */
+.index-logo{
+	text-align: center;
+	clear: both;
+	margin: 57px 0 0 10px;
+}
+/* блок преимуществ - начало */
+.index-features{
+	width: 966px;
+	margin: 0 auto 77px;
+	color: #f7f4f1;
+}
+.index-features-item{
+	width: 282px;
+	float: left;
+	list-style: none;
+	margin: 18px 20px 0;
+	padding: 0;
+}
+.index-features-item-title{
+	display: block;
+	font-size: 1.9em;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.index-features-item-title:after{
+	display: block;
+	margin-top: 14px;
+	padding-top: 30px;
+	content: "";
+	background: url(../img/romb.png) no-repeat center;
+}
+.index-features-item-description{
+	font-size: 0.9em;
+	line-height: 1.8;
+	text-align: center;
+	font-weight: lighter;
+}
+/* блок преимуществ - конец */
+/* блоки статей - начало */
+.index-articles{
+	width: 860px;
+	margin: 0 auto 33px;
+	padding: 46px 0 55px 80px;
+	background-image: url("../img/mark.png"), url("../img/bg-article.jpg");
+	background-position: center;
+	background-repeat: no-repeat, repeat;
+	color: #000;
+}
+/* левая колонка - блок новостей - начало */
+.index-articles-leftcol, .index-articles-contactcol, .index-articles-meetcol{
+	width: 310px;
+	padding: 0;
+	float: left;
+	margin-right: 170px;
+}
+.index-articles-leftcol-title, .index-articles-contactcol-title, .index-articles-meetcol-title{
+	font-size: 1.9em;
+	display: block;
+	margin-bottom: 26px;
+}
+.index-articles-leftcol-news{
+	height: 100%;
+	margin-bottom: 5px;
+}
+.index-articles-leftcol-item, .index-articles-meetcol-item{
+	font-size: 0.9em;
+	line-height: 1.7;
+	display: block;
+	margin-bottom: 5px;
+}
+.index-articles-leftcol-date{
+	font-family: georgia;
+	font-size: 0.9em;
+	font-style: italic;
+	text-transform: lowercase;
+	display: block;
+	margin-bottom: 30px;
+}
+/* общая кнопка среднего размера */
+.index-articles-leftcol-btn, .footer-designer-btn{
+	display: block;
+	background-color: #000;
+	color: #fff;
+	font-size: 0.9em;
+	text-align: center;
+	text-decoration: none;
+	width: 140px;
+	height: 43px;
+	line-height: 43px;
+	float: left;
+	margin-right: 20px;
+}
+.index-articles-leftcol-btn:hover, .footer-designer-btn:hover{
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+}
+/* левая колонка - блок новостей - конец */
+/*  правая колонка - фотогалерея - начало */
+.index-articles-rightcol{
+	width: 320px;
+	padding: 0;
+	float: left;
+}
+.index-articles-rightcol-title{
+	font-size: 1.9em;
+	display: block;
+	margin-bottom: 33px;
+	padding-left: 2px;
+}
+.index-articles-rightcol-img{
+	border: 7px solid #fff;
+	margin-bottom: 33px;
+}
+/*  правая колонка - фотогалерея - конец */
+/* Левая колонка - Контактная информация - начало */
+.index-articles-contactcol{
+	width: 330px;
+	margin-right: 150px;
+	margin-bottom: 7px;
+}
+.index-articles-contactcol-title, .index-articles-contactcol-adress{
+	margin-bottom: 28px;
+}
+.index-articles-contactcol-time{
+	margin-bottom: 48px;
+}
+.index-articles-contactcol-adress-item, .index-articles-contactcol-time-item, .index-articles-meetcol-item{
+	display: block;
+	font-size: 0.85em;
+	margin-bottom: 7px;
+}
+/* Левая колонка - Контактная информация - конец */
+
+/* правая колонка - блок Записаться - начало */
+.index-articles-meetcol{
+	width: 310px;
+	margin-right: 0;
+}
+.index-articles-meetcol-title{
+	padding-left: 2px;
+}
+.index-articles-meetcol-item{
+	font-size: 0.9em;
+	margin-bottom: 29px;
+	padding-left: 2px;
+}
+.index-articles-meetcol-form-date, .index-articles-meetcol-form-time, .index-articles-meetcol-form-name, .index-articles-meetcol-form-phone{
+	float: left;
+	width: 121px;
+	height: 37px;
+	border: 2px solid #000;
+	margin-right: 20px;
+	margin-bottom: 19px;
+	text-align: left;
+	padding-left: 15px;
+	font-family: 'pt-sans-narrowbold';
+	font-size: 0.9em;
+	background-color: transparent;
+}
+.index-articles-meetcol-form-time, .index-articles-meetcol-form-phone{
+	margin-right: 0;
+}
+.index-articles-meetcol-form-btn{
+	font-family: 'pt-sans-narrowbold';
+	font-size: 0.9em;
+	height: 43px;
+	width: 300px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	margin-top: 15px;
+}
+.index-articles-meetcol-form-btn:hover{
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+}
+/* правая колонка - блок Записаться - конец */
+
+/* отступ от последнего блока статей */ 
+.last{
+	margin-bottom: 64px;
+}
+/* Футер */
+.footer{
+	width: 940px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 58px 0;
+	color: #fff;
+	font-size: 0.9em;
+}
+.footer-adress{
+	width: 255px;
+	float: left;
+	margin-right: 145px;
+}
+.footer-adress-item{
+	display: block;
+	margin-bottom: 5px;
+}
+.footer-social{
+	width: 145px;
+	float: left;
+}
+.footer-social-title, .footer-designer-title{
+	display: block;
+	text-align: center;
+	margin-bottom: 6px;
+}
+.footer-social-vklink, .footer-social-fblink, .footer-social-instlink{
+	display: block;
+	width: 43px;
+	height: 43px;
+	margin-right: 6px;
+	float: left;
+}
+.footer-social-vklink{
+	background-image: url("../img/soc-vk.png");
+}
+.footer-social-fblink{
+	background-image: url("../img/soc-fb.png");
+}
+.footer-social-instlink{
+	background-image: url("../img/soc-inst.png");
+	margin-right: 0;
+}
+.footer-designer{
+	width: 140px;
+	float: right;
+}
