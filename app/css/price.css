@@ -1,3 +1,33 @@
 .layout-wrapper{
-	background-image: url(../img/bg-article.jpg) repeat;
+	background-image: none;
+	background-image: url(../img/bg-price.jpg) no-repeat;
+
+}
+.price-wrapper{
+	--width: 1200px;
+	--margin: 0 auto;
+	padding: 54px auto 0;
+	color: white;
+}
+.price-route{
+	font-size: 1.8em;
+	padding-left: 2px;
+}
+.price-route-title{
+	letter-spacing: 0.02em;
+	margin-bottom: 17px;
+}
+.price-route-item{
+	font-size: 0.5em;
+	float: left;
+	padding-left: 1px;
+	padding-right: 25px;
+}
+.price-route-item:after{
+	display: block;
+	background-image: url(../img/romb-small.png) no-repeat;
+	content: "";
+}
+.footer{
+	background-image: url("../img/bg-footer.jpg") no-repeat;
 }
