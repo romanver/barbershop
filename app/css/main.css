@@ -43,9 +43,9 @@ body{
 	text-decoration: none;
 	color: white;
 	margin: 0 22px;
-	padding: 0 0 28px;
+	padding: 0 0 24px;
 }
-.header-menu-item-link:hover{
+.current{
 	border-bottom: 3px solid white;
 }
 .header-menu-item{
