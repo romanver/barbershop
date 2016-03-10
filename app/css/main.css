@@ -22,9 +22,9 @@ body{
 .layout-wrapper{
 	width: 1200px;
 	margin: 0 auto;
-	background-image: url(../img/bg-barb.jpg), url(../img/bg-TexasRichardson.jpg), url("../img/bg-footer.jpg");
-	background-repeat: no-repeat, no-repeat, no-repeat;
-	background-position:  center -108px, center 680px, center bottom;
+	background-image: url(../img/bg-barb.jpg), url(../img/bg-TexasRichardson.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position:  center -108px, center 680px;
 	
 }
 /* блок хэдэра с меню и ссылкой для логина - начало */
@@ -253,11 +253,11 @@ body{
 /* Футер */
 .footer{
 	width: 940px;
-	height: 100%;
 	margin: 0 auto;
-	padding: 58px 0;
+	padding: 58px 130px 59px;
 	color: #fff;
 	font-size: 0.9em;
+	background-image: url("../img/bg-footer.jpg");
 }
 .footer-adress{
 	width: 255px;

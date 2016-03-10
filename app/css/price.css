@@ -1,13 +1,12 @@
 .layout-wrapper{
 	background-image: none;
-	background-image: url(../img/bg-price.jpg) no-repeat;
 
 }
 .price-wrapper{
-	--width: 1200px;
-	--margin: 0 auto;
-	padding: 54px auto 0;
-	color: white;
+	width: 940px;
+	margin: 0 auto;
+	padding: 54px 130px 0;
+	background-image: url(../img/bg-price.jpg);
 }
 .price-route{
 	font-size: 1.8em;
@@ -22,12 +21,15 @@
 	float: left;
 	padding-left: 1px;
 	padding-right: 25px;
+	margin-bottom: 43px;
 }
 .price-route-item:after{
-	display: block;
-	background-image: url(../img/romb-small.png) no-repeat;
 	content: "";
+	display: block;
+	background-image: url(../img/romb-small.png);
 }
-.footer{
-	background-image: url("../img/bg-footer.jpg") no-repeat;
+.price-title{
+	clear: both;
+	text-align: center;
+	font-size: 3em;
 }
