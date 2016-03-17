@@ -29,9 +29,9 @@ body{
 }
 /* блок хэдэра с меню и ссылкой для логина - начало */
 .header{
-	height: 47px;
+	height: 72px;
 	background-color: black;
-	padding: 25px 128px 0;
+	padding: 0 128px 0;
 }
 .header-menu{
 	margin: 0;
@@ -42,8 +42,11 @@ body{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin: 0 22px;
-	padding: 0 0 24px;
+	margin: 0;
+	padding: 25px 22px 24px;
+}
+.header-menu-item-link:hover{
+	background-color: #242424;
 }
 .current{
 	border-bottom: 3px solid white;
@@ -56,9 +59,8 @@ body{
 	display: block;
 	float: right;
 	color: white;
-	padding-left: 32px;
-	padding-right: 2px;
-	background: url("../img/login.png") no-repeat left;
+	padding: 25px 2px 26px 32px;
+	background: url("../img/login.png") no-repeat left 27px;
 	text-decoration: none;
 }
 .account-menu-link:hover{
@@ -297,4 +299,27 @@ body{
 .footer-designer{
 	width: 140px;
 	float: right;
+}
+/* Футер конец */
+/* общий блок "Путь к странице" */
+.route{
+	font-size: 1.8em;
+	padding-left: 2px;
+	margin-bottom: 43px;
+}
+.route-title{
+	letter-spacing: 0.02em;
+	margin-bottom: 17px;
+}
+.route-item{
+	font-size: 0.5em;
+	float: left;
+	padding-left: 1px;
+	padding-right: 12px;
+}
+.route-separator{
+	display: block;
+	float: left;
+	padding-top: 4px;
+	margin-right: 12px;
 }

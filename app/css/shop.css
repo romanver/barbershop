@@ -1,0 +1,45 @@
+/* страница МАГАЗИН */
+/* общий бекграунд */
+.layout-wrapper{
+	background-image: none;
+}
+/* блок основной информации начало */
+.shop-wrapper{
+	width: 940px;
+	margin: 0 auto;
+	padding: 54px 130px 0;
+	background-image: url(../img/bg-price.jpg);
+}
+.route{
+	margin-bottom: 51px;
+}
+.body-leftcol{
+	width: 176px;
+	float: left;
+}
+.body-leftcol-manufactory{
+	margin-bottom: 43px;
+}
+.body-leftcol-manufactory-title{
+	font-size: 1.5em;
+	margin-bottom: 28px;
+}
+.body-leftcol-manufactory-list{
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+}
+.body-leftcol-manufactory-item{
+	height: 20px;
+	list-style: none;
+	background: url(../img/check-off.png) no-repeat left center;
+	padding-left: 43px;
+	margin-bottom: 18px;
+}
+.body-leftcol-menu{
+
+}
+.body-leftcol-menu-title{
+	font-size: 1.5em;
+	margin-bottom: 28px;
+}

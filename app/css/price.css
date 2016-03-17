@@ -10,27 +10,6 @@
 	padding: 54px 130px 0;
 	background-image: url(../img/bg-price.jpg);
 }
-.price-route{
-	font-size: 1.8em;
-	padding-left: 2px;
-	margin-bottom: 43px;
-}
-.price-route-title{
-	letter-spacing: 0.02em;
-	margin-bottom: 17px;
-}
-.price-route-item{
-	font-size: 0.5em;
-	float: left;
-	padding-left: 1px;
-	padding-right: 12px;
-}
-.price-route-separator{
-	display: block;
-	float: left;
-	padding-top: 4px;
-	margin-right: 12px;
-}
 .price-title{
 	clear: both;
 	text-align: center;
