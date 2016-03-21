@@ -5,8 +5,9 @@ body{
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'pt-sans-narrowbold';
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
+	font-weight: bold;
 	text-transform: uppercase;
 	background-color: #282828;
 }
@@ -22,9 +23,7 @@ body{
 .layout-wrapper{
 	width: 1200px;
 	margin: 0 auto;
-	background-image: url(../img/bg-barb.jpg), url(../img/bg-TexasRichardson.jpg);
-	background-repeat: no-repeat, no-repeat;
-	background-position:  center -108px, center 680px;
+	background: url(../img/bg-index.jpg) no-repeat;
 	
 }
 /* блок хэдэра с меню и ссылкой для логина - начало */
@@ -75,15 +74,15 @@ body{
 }
 /* блок преимуществ - начало */
 .index-features{
-	width: 966px;
+	width: 960px;
 	margin: 0 auto 77px;
 	color: #f7f4f1;
 }
 .index-features-item{
-	width: 282px;
+	width: 300px;
 	float: left;
 	list-style: none;
-	margin: 18px 20px 0;
+	margin: 18px 10px 0;
 	padding: 0;
 }
 .index-features-item-title{
@@ -130,7 +129,7 @@ body{
 }
 .index-articles-leftcol-news{
 	height: 100%;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 .index-articles-leftcol-item, .index-articles-meetcol-item{
 	font-size: 0.9em;
@@ -140,11 +139,11 @@ body{
 }
 .index-articles-leftcol-date{
 	font-family: georgia;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	font-style: italic;
 	text-transform: lowercase;
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 29px;
 }
 /* общая кнопка среднего размера */
 .index-articles-leftcol-btn, .footer-designer-btn{
@@ -212,7 +211,7 @@ body{
 }
 .index-articles-meetcol-item{
 	font-size: 0.9em;
-	margin-bottom: 29px;
+	margin-bottom: 27px;
 	padding-left: 2px;
 }
 .index-articles-meetcol-form-date, .index-articles-meetcol-form-time, .index-articles-meetcol-form-name, .index-articles-meetcol-form-phone{
@@ -224,7 +223,8 @@ body{
 	margin-bottom: 19px;
 	text-align: left;
 	padding-left: 15px;
-	font-family: 'pt-sans-narrowbold';
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
 	font-size: 0.9em;
 	background-color: transparent;
 }
@@ -232,7 +232,8 @@ body{
 	margin-right: 0;
 }
 .index-articles-meetcol-form-btn{
-	font-family: 'pt-sans-narrowbold';
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
 	font-size: 0.9em;
 	height: 43px;
 	width: 300px;

@@ -10,10 +10,24 @@
 	padding: 54px 130px 0;
 	background-image: url(../img/bg-price.jpg);
 }
+.price-titleline{
+	float: left;
+	width: 160px;
+	min-height: 2px;
+	background-color: #000;
+	margin-top: 32px;
+	margin-right: 25px;
+	border: none;
+}
+.price-titleline:nth-child(4){
+	margin-right: 0;
+}
 .price-title{
-	clear: both;
+	float: left;
 	text-align: center;
 	font-size: 3em;
+	letter-spacing: 0.004em;
+	margin-right: 25px;
 	margin-bottom: 55px;
 }
 /* блоки СРЕДСТВА, ЦЕНА и О НАС начало */

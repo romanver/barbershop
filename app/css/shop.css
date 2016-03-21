@@ -26,16 +26,28 @@
 	margin-bottom: 28px;
 }
 .body-leftcol-manufactory-list{
+	width: 168px;
 	font-size: 0.9em;
 	margin: 0;
 	padding: 0;
 }
 .body-leftcol-manufactory-item{
-	height: 20px;
 	list-style: none;
-	background: url(../img/check-off.png) no-repeat left center;
-	padding-left: 43px;
 	margin-bottom: 18px;
+}
+.body-leftcol-manufactory-checklink{
+	display: block;
+	height: 20px;
+	width: 20px;
+	float: left;
+	background: url(../img/check-off.png) no-repeat left center;
+	margin-right: 23px;
+}
+.body-leftcol-manufactory-textlink{
+	display:inline-block;
+	height: 20px;
+	text-decoration: none;
+	color: #000;
 }
 .body-leftcol-menu{
 
@@ -71,15 +83,19 @@
 }
 .body-rightcol-products{
 	padding-left: 0px;
+	margin-bottom: 24px;
 }
 .body-rightcol-products-item{
 	width: 220px;
 	float: left;
 	background-color: #fff;
 	color: #000;
-	box-shadow: 3px 3px 20px 3px #000;
+	box-shadow: 3px 3px 20px 3px #e5e5e5;
 	margin-right: 20px;
 	margin-bottom: 20px;
+}
+.body-rightcol-products-item:hover{
+	box-shadow: 3px 3px 20px 3px #ccc;
 }
 .body-rightcol-products-item:nth-child(3n+3){
 	margin-right: 0px;
@@ -115,14 +131,40 @@
 	margin-top: 0;
 }
 .body-rightcol-products-btn{
-	margin: 0 auto 20px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	margin: 0 auto 16px;
 	width: 187px;
 	background-color: #e5e5e5;
 	text-align: center;
 	font-size: 0.9em;
-	padding: 10px 0;
+	padding: 10px 0 14px;
+	cursor: pointer;
 }
 .body-rightcol-products-btn:hover{
 	background-color: #000;
 	color: #fff;
+}
+/* пагинация */
+.body-rightcol-pagination{
+	margin-bottom: 47px;
+}
+.body-rightcol-pagination-btn{
+	display: block;
+	text-decoration: none;
+	float: left;
+	width: 43px;
+	background-color: #000;
+	color: #fff;
+	margin-right: 7px;
+	text-align: center;
+	padding: 10px 0 10px;
+	border-bottom: 4px solid #000;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+.body-rightcol-pagination-btn:hover, .body-rightcol-pagination-btn-act{
+	background-color: #fff;
+	color: #000;
 }
