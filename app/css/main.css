@@ -1,15 +1,13 @@
-html{
-	height: 100%;
-}
-body{
-	height: 100%;
+html, body{	
 	margin: 0;
 	padding: 0;
+}
+body{
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #282828;
+	background: #000 url(../img/bg-index.jpg) no-repeat 50% 0;
 }
 
 /* Очистка блоков с плавающими элементами - начало */
@@ -21,75 +19,76 @@ body{
 /* Очистка блоков с плавающими элементами - конец */
 /* обертка всей страницы */
 .layout-wrapper{
-	width: 1200px;
+	width: 940px;
 	margin: 0 auto;
-	background: url(../img/bg-index.jpg) no-repeat;
+	padding: 0 10px;
 	
 }
 /* блок хэдэра с меню и ссылкой для логина - начало */
 .header{
 	height: 72px;
 	background-color: black;
-	padding: 0 128px 0;
+	margin-bottom: 57px;
 }
 .header-menu{
 	margin: 0;
 	padding: 0;
 	float: left;
-}
-.header-menu-item-link{
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	margin: 0;
-	padding: 25px 22px 24px;
-}
-.header-menu-item-link:hover{
-	background-color: #242424;
-}
-.current{
-	border-bottom: 3px solid white;
+	margin-left: -1px;
 }
 .header-menu-item{
 	display: inline-block;
 	color: white;
 }
+.header-menu-item-link{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 25px 22px 27px;
+}
+.header-menu-item-link:hover{
+	background-color: #242424;
+}
+.current{
+	box-shadow: 0px 25px 0px -22px #fff;
+}
+.account-menu{
+	float: right;
+	vertical-align: middle;
+}
 .account-menu-link{
 	display: block;
-	float: right;
 	color: white;
-	padding: 25px 2px 26px 32px;
+	padding: 25px 0 27px 32px;
 	background: url("../img/login.png") no-repeat left 27px;
-	text-decoration: none;
-}
-.account-menu-link:hover{
 	text-decoration: none;
 }
 /* блок хэдэра с меню и ссылкой для логина - конец */
 /* основной логотип */
 .index-logo{
 	text-align: center;
-	clear: both;
-	margin: 57px 0 0 10px;
+	margin-bottom: 18px;
 }
 /* блок преимуществ - начало */
 .index-features{
-	width: 960px;
-	margin: 0 auto 77px;
+	margin-bottom: 79px;
 	color: #f7f4f1;
 }
 .index-features-item{
-	width: 300px;
+	width: 280px;
 	float: left;
 	list-style: none;
-	margin: 18px 10px 0;
-	padding: 0;
+	margin: 0 20px 0 0;
+	padding: 0 10px;
+}
+.index-features-item:last-child{
+	margin-right: 0;
 }
 .index-features-item-title{
 	display: block;
 	font-size: 1.9em;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 26px;
 }
 .index-features-item-title:after{
 	display: block;
@@ -100,7 +99,7 @@ body{
 }
 .index-features-item-description{
 	font-size: 0.9em;
-	line-height: 1.8;
+	line-height: 1.7;
 	text-align: center;
 	font-weight: lighter;
 }

@@ -1,13 +1,17 @@
 /* страница МАГАЗИН */
 /* общий бекграунд */
-.layout-wrapper{
+body{
 	background-image: none;
+}
+.header{
+	margin-bottom: 0;
+	height: 74px;
 }
 /* блок основной информации начало */
 .shop-wrapper{
 	width: 940px;
 	margin: 0 auto;
-	padding: 54px 130px 0;
+	padding: 52px 130px 0;
 	background-image: url(../img/bg-price.jpg);
 }
 .route{
