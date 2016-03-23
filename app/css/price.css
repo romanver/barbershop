@@ -1,6 +1,6 @@
 /* страница ПРАЙС-ЛИСТ */
 /* общий бекграунд */
-body{
+.pricelist-body{
 	background-image: none;
 }
 .header{
@@ -12,7 +12,7 @@ body{
 	width: 1200px;
 	margin: 0 auto;
 	padding: 52px 0 0;
-	background-image: url(../img/bg-price.jpg);
+	background-image: url(../img/bg-article.jpg);
 }
 .price-titleline{
 	float: left;

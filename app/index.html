@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Barbershop "BORODINSKI"</title>
+	<script src="js/modernizr.js"></script>
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css" type="text/css">
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -89,10 +90,10 @@
 				<span class="index-articles-meetcol-title">Записаться</span>
 				<span class="index-articles-meetcol-item">Укажите желаемую дату и время, и мы свяжемся с вами для подтверждения брони</span>
 				<form action="#" class="index-articles-meetcol-form">
-					<input type="text" value="ДАТА" class="index-articles-meetcol-form-date">
-					<input type="text" value="ВРЕМЯ" class="index-articles-meetcol-form-time">
-					<input type="text" value="ВАШЕ ИМЯ" class="index-articles-meetcol-form-name">
-					<input type="text" value="ТЕЛЕФОН" class="index-articles-meetcol-form-phone">
+					<input type="text" placeholder="ДАТА" class="index-articles-meetcol-form-date">
+					<input type="text" placeholder="ВРЕМЯ" class="index-articles-meetcol-form-time">
+					<input type="text" placeholder="ВАШЕ ИМЯ" class="index-articles-meetcol-form-name">
+					<input type="text" placeholder="ТЕЛЕФОН" class="index-articles-meetcol-form-phone">
 					<input type="submit" value="ОТПРАВИТЬ" class="index-articles-meetcol-form-btn">
 				</form>
 			</div>
@@ -115,6 +116,21 @@
 				<span class="footer-designer-title">Дизайн сайта:</span>
 				<a href="#" class="footer-designer-btn">Glukhanko.ru</a>
 			</div>
+		</div>
+		<div class="login-popup">
+			<div class="login-popup-title">ЛИЧНЫЙ КАБИНЕТ</div>
+			<div class="login-popup-item">ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</div>
+			<form action="#" method="post" class="login-popup-form">
+				<input type="text" placeholder="ЛОГИН" class="login-popup-form-logfield">
+				<input type="text" placeholder="ПАРОЛЬ" class="login-popup-form-passfield">
+				<div class="login-popup-form-service">
+					<label class="login-popup-form-label">
+						<input type="checkbox" class="login-popup-form-checkbox">ЗАПОМНИТЕ МЕНЯ
+					</label>
+					<a href="#" class="login-popup-lostpass-link">Я ЗАБЫЛ ПАРОЛЬ!</a>
+				</div>
+				<input type="submit" value="ВОЙТИ" class="login-popup-form-btn">
+			</form>
 		</div>
 </body>
 </html>

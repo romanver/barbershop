@@ -1,6 +1,6 @@
 /* страница МАГАЗИН */
 /* общий бекграунд */
-body{
+.shoppage-body{
 	background-image: none;
 }
 .header{
@@ -12,7 +12,7 @@ body{
 	width: 940px;
 	margin: 0 auto;
 	padding: 52px 130px 0;
-	background-image: url(../img/bg-price.jpg);
+	background-image: url(../img/bg-article.jpg);
 }
 .route{
 	margin-bottom: 51px;

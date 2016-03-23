@@ -4,7 +4,7 @@ html, body{
 }
 body{
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
+	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
 	background: #000 url(../img/bg-index.jpg) no-repeat 50% 0;
@@ -252,6 +252,75 @@ body{
 .last{
 	margin-bottom: 64px;
 }
+/* всплывающее окно входа в личный кабинет - начало */
+.login-popup{
+	display: block;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -230px;
+	width: 300px;
+	background: url(../img/bg-article.jpg) repeat;
+	padding: 47px 80px 0;
+}
+.login-popup-title{
+	font-size: 1.875em;
+    margin-bottom: 21px;
+    padding-left: 3px;
+}
+.login-popup-item{
+    padding-left: 3px;
+    margin-bottom: 54px;
+}
+.login-popup-form{
+	margin-bottom: 62px;
+}
+.login-popup-form-logfield,
+.login-popup-form-passfield{
+	width: 268px;
+	height: 39px;
+	border: 2px solid black;
+	padding: 0 13px 0 15px;
+	margin-bottom: 9px;
+}
+.login-popup-form-logfield{
+	background: white url(../img/icon-form-user.png) no-repeat 268px 14px;
+}
+.login-popup-form-passfield{
+	background: white url(../img/icon-form-locked.png) no-repeat 268px 10px;
+	margin-bottom: 16px;
+}
+.login-popup-form-service{
+	margin-bottom: 16px;
+}
+.login-popup-form-checkbox{
+	width: 20px;
+	height: 20px;
+	vertical-align: text-top;
+	margin-right: 12px;
+}
+.login-popup-form-label{
+	margin-right: 72px;
+}
+.login-popup-lostpass-link{
+	color: black;
+}
+.login-popup-form-btn{
+	width: 300px;
+	height: 43px;
+	background-color: black;
+	color: white;
+	border: none;
+	text-align: center;
+}
+.login-popup-item,
+.login-popup-form-logfield,
+.login-popup-form-passfield,
+.login-popup-form-service,
+.login-popup-form-btn{
+	font-size: 0.875em;
+}
+/* всплывающее окно входа в личный кабинет - конец */
 /* Футер */
 .footer{
 	width: 940px;
